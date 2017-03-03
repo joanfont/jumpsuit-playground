@@ -22,3 +22,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App .navigator {
+  margin-top: 15px;
+}
+
+.App .navigator  a {
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.App .navigator a:hover {
+  text-decoration: underline;
+}

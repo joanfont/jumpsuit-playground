@@ -1,7 +1,7 @@
 import React from 'react';
 import {State, Component} from 'jumpsuit';
 
-const TodoState = State({
+const TodoState = State('todo', {
   initial: {
     list: [],
     value: '',
